@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "293792970507",
+    "firebase_url": "https://carhire-1e3e4.firebaseio.com",
+    "project_id": "carhire-1e3e4",
+    "storage_bucket": "carhire-1e3e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293792970507:android:85eca29df8bcd8ce",
+        "android_client_info": {
+          "package_name": "app.carhire.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293792970507-vu321st1ma69kalp8i1hohfsmd7n8743.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carhire.com",
+            "certificate_hash": "f93f9122c92dfd6f2ad0efd7750b66ca3a1c129e"
+          }
+        },
+        {
+          "client_id": "293792970507-pkilbr8qf226nq5hnn5c4e25hrbies3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.carhire.com",
+            "certificate_hash": "47d7954f817fca25880f70740e9f6ff5db5cdd59"
+          }
+        },
+        {
+          "client_id": "293792970507-rq1mnhlgdnbglrac9iksmsgequtji8in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjGQfomifXMOJpp_yoeUaUEiX4wKigjiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293792970507-rq1mnhlgdnbglrac9iksmsgequtji8in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CarHire</string>
+    <string name="car_make">Car Make (eg. Toyota)</string>
+    <string name="car_model">Car Model (eg. Axio)</string>
+    <string name="car_fuel_type">Fuel Type (Petrol/Diesel)</string>
+    <string name="pick_display_pic">Click to pick a display picture for your vehicle(Just pick one and you can add more once done uploading vehicle details)</string>
+    <string name="vehicle_details">Vehicle Details :</string>
+    <string name="car_engiene">Engiene Size (eg. 1500cc)</string>
+    <string name="car_transmission">Transmission (Manual/Automatic)</string>
+    <string name="car_capacity">Capacity (eg. 4 adults)</string>
+    <string name="hire_rate">Hiring Rate (eg Ksh.100/hour)</string>
+    <string name="submit">Submit</string>
+    <string name="post_car">Post Car</string>
+    <string name="any_other_accessories">Any Other Accessories</string>
+    <string name="book_a_car">Book a Car</string>
+    <string name="car_details">Car Details</string>
+    <string name="make_and_model">Make and Model</string>
+    <string name="r">R</string>
+    <string name="review_account">Review Account</string>
+    <string name="exit">Exit</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="no_available_vehicles">There are no available vehicles.\nPlease come back later.\nThank you for understanding</string>
+    <string name="no_rented_vehicles">You haven\'t booked any car</string>
+    <string name="some_cars">Here is a list of cars available for hire</string>
+    <string name="view_car">View Car</string>
+    <string name="log_out">Log Out</string>
+    <string name="booker_details">Booker Details</string>
+</resources>

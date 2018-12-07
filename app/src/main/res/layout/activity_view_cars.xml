@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.ViewCars">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:title="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_user"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="@drawable/border_grey"/>
+
+    <TextView
+        android:id="@+id/here_is_a_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/some_cars"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@drawable/border_grey"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/car_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+        <TextView
+            android:id="@+id/no_available_cars"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/no_available_vehicles"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/border_grey"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/load_available_vehicles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/post_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/add_car_icon"
+            app:backgroundTint="@color/colorPrimary"
+            android:elevation="10dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>
